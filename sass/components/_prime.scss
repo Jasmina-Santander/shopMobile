@@ -1,0 +1,8 @@
+.main{
+    @extend %spacing;
+    padding-top: 20px;
+    color: $color-dark;
+    text-align: center;
+    background-color: $color-gray;
+    font-size: 25px;
+}

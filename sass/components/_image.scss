@@ -1,0 +1,27 @@
+/*.img{
+height: 600px;
+display: flex;
+justify-content: center;
+flex-direction: row;
+&__image{
+   margin: 20px;
+}
+    &__section{
+        height: 200px;
+        width: 200px;
+        border-radius: 200%;  
+        border: solid $color-dark; 
+    }
+    &__section:hover {
+      border: solid $color-light;
+    }
+&__subtitle{
+    letter-spacing: 3px;
+    color: $color-dark;
+    margin-top: 20px; 
+}
+&__paragraph{
+    @extend %spacing;
+    color: $color-gray;
+}
+}

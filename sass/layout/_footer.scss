@@ -1,0 +1,16 @@
+.footer{
+    background-color: $color-dark;
+    color: $color-light;
+    font-family: $font-content;
+    font-size: small;
+    text-align: center;
+    &__iconos{
+        background-color: $color-gray;
+        height: 50px;
+    }
+    &__img{
+        width: 25px;
+        margin: 10px 40px 0px 10px;
+    }
+
+}

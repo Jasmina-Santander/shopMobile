@@ -1,0 +1,16 @@
+/*.nav{
+    background-color: $color-primary;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: $font-nav;
+&__separator{
+    color: $color-light;
+    text-align: end;
+}
+&__link{
+    color: $color-light;
+    @extend %spacing;
+text-decoration: none;
+    }
+}*/
